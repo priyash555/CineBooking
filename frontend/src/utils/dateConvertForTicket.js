@@ -1,9 +1,9 @@
 export default function dateConvertForTicket(date) {
-    const day = new Date(date).toLocaleDateString("tr", {
+    const day = new Date(date).toLocaleDateString("en-US", {
         month: 'long',
         day: 'numeric'
     });
-    const dayName = new Date(date).toLocaleDateString("tr", {
+    const dayName = new Date(date).toLocaleDateString("en-US", {
         weekday: "long",
     });
     return (
